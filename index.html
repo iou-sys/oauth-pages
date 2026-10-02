@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>メール下書きツール260827</title>
+<style>
+  body {
+    margin: 0;
+    background: #f5f6f8;
+    color: #222;
+    font-family: -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    line-height: 1.8;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 20px 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 16px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 8px; border-left: 4px solid #3b6fd4; padding-left: 10px; }
+  p, li { font-size: 1rem; }
+  ul { padding-left: 1.4em; }
+  a { color: #1a56c4; word-break: break-all; }
+  footer { margin-top: 24px; font-size: 0.85rem; color: #666; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>メール下書きツール260827</h1>
+
+    <h2>このアプリについて</h2>
+    <p>
+      「メール下書きツール260827」は、開発者本人が自分のWindowsパソコン上だけで使う、個人用のデスクトップツール(Python製)です。
+      一般公開はしておらず、開発者本人以外の利用者はいません。
+    </p>
+
+    <h2>アクセスするGoogleのデータと目的</h2>
+    <p>
+      本ツールは、開発者本人のGmailアカウントに対してのみ、Gmail API(スコープ:
+      <code>https://www.googleapis.com/auth/gmail.modify</code>)を使用します。目的は次のとおりです。
+    </p>
+    <ul>
+      <li>メールの下書きを作成する(内容は開発者本人が確認し、手動またはツール経由で送信します)</li>
+      <li>返信が届いているか、メールが送信済みかを確認するため、開発者本人のメールボックスを検索する</li>
+      <li>上記の確認に必要な範囲で、メッセージのヘッダー(件名・宛先など)と本文を読み取る</li>
+    </ul>
+    <p>
+      取得した情報は開発者のパソコン内(Excelファイルとログ)にのみ保存され、外部のサーバーへ送信・共有されることはありません。
+      詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。
+    </p>
+
+    <h2>プライバシーポリシー</h2>
+    <p><a href="privacy.html">プライバシーポリシーはこちら</a></p>
+
+    <h2>お問い合わせ</h2>
+    <p>
+      お問い合わせは、次のGitHubリポジトリを通じてお願いします。<br>
+      <a href="https://github.com/iou-sys/oauth-pages">https://github.com/iou-sys/oauth-pages</a>
+    </p>
+  </div>
+  <footer>最終更新日:2026年10月2日</footer>
+</main>
+</body>
+</html>
